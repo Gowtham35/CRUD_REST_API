@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD REST API</title>
+</head>
+
+<body>
+    <h2>I am Anusha</h2>
+    <h3>Welcome to my project where you can perform CRUD operations</h3>
+    <br />
+    <h4>Available routes:</h4>
+    <p>GET request "/users" --- list all the users in the users table</p>
+    <p>GET request "/users/:id" --- get a individual user data from the users table</p>
+    <p>POST request "/users" --- creates new record in users table, pass the {id, name, age, gender} in body</p>
+    <p>PATCH request "/users/:id" --- updates the record in users table based on id you have sent in params, pass the
+        {name, age, gender} in body thate you want to update</p>
+    <p>DELETE request "/users/:id" --- deletes the record in users table based on id you have sent in params</p>
+    <br />
+    <b>Note: </b><br />
+    <p>Use "boomerang"(a chrome extension) or "postman" to make the request</p>
+    <p>I have used postgres sql as db so make sure you have installed postgres in your system and make changes in db.js</p>
+    <p>while making a req from body use raw json format</p>
+</body>
+
+</html>
